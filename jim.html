@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Tako Resto</title>
+		<link rel="stylesheet" type="text/css" href="main.css">
+		
+		<link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+		
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+		</head>
+		<body>
+		
+		<!-----Home----->
+		<header>
+			<a href="#" class="logo">CoffeeHOLIC</a>
+			<div class="bx bx-menu" id="menu-icon"></div>
+			
+			<ul class="navbar">
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">About Us</a></li>
+				<li><a href="#menu">Menu</a></li>
+				<li><a href="#services">Services</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</header>
+		
+		
+		<section class="home" id="home">
+			<div class="home-text">
+				<h1>CoffeeHOLIC</h1>
+				<h2>Kung Saan <br> Dito Nyo Lang Makikita!</h2>
+				<a href="#menu" class="btn">Today's Menu</a>
+			</div>
+			
+			<div class="home-image">
+				<img src="logo.png">
+			</div>
+		</section>
+		
+		<!-----About----->
+		<section class="about" id="about">
+			<div class="about-img">
+				<img src="logo3.jpg">
+			</div>
+			
+			<div class="about-text">
+				<span>About Us</span>
+				<h2>CoffeeHOLIC</h2>
+				<p>Welcome to our CoffeeHOLIC, where barista excellence meets warm hospitality.</p>
+				<p>Located at M.S Garcia Purok 1</p>
+				<a href="#" class="btn">Learn More</a>
+			</div>
+		</section>			
+		
+		<!-----Menu----->
+		<section class="menu" id="menu">
+			<div class="heading">
+				<span>Food Menu</span>
+				<h2>Mura na Masarap Pa!</h2>
+			</div>
+			
+			<div class="menu-container">
+				<div class="box">
+					<div class="box-img">
+						<img src="menu1.png">
+					</div>
+					<h2>Caramel Macchiato</h2>
+					<h3>Best Seller</h3>
+					<span>₱49<span>
+					<i class='bx bx-cart-alt'></i>
+				</div>
+				
+				<div class="box">
+					<div class="box-img">
+						<img src="menu2.png">
+					</div>
+					<h2>Green Apple</h2>
+					<h3>Best Seller</h3>
+					<span>₱49<span>
+					<i class='bx bx-cart-alt'></i>
+				</div>
+				
+				<div class="box">
+					<div class="box-img">
+						<img src="menu3.png">
+					</div>
+					<h2>Strawberry</h2>
+					<h3>Best Seller</h3>
+					<span>₱49<span>
+					<i class='bx bx-cart-alt'></i>
+				</div>
+			</div>	
+			</section>
+			
+			<!-----Services----->
+			<section class="services" id="services">
+				<div class="heading">
+					<span>Services</span>
+					<h2>We Serve The Best</h2>
+				</div>
+				
+				<div class="service-container">
+					<div class="s-box">
+						<img src="s1.png">
+						<h3>Order</h3>
+					</div>
+					
+					<div class="s-box">
+						<img src="s2.png">
+						<h3>Shipping</h3>
+					</div>
+					
+					<div class="s-box">
+						<img src="s3.png">
+						<h3>Delivered</h3>
+					</div>
+				</div>
+			</section>
+			
+			<!-----Contact----->
+			<section class="cta">
+				<h2>We Make Quality Drinks <br> Everyday</h2>
+				<a href="#" class="btn">Let's Talk</a>
+			</section>
+			
+			<!-----footer----->
+			<section id="contact">
+				<div class="footer">
+					<div class="main">
+						<div class="col">
+							<h4>Menu Links</h4>
+							<ul>
+								<li><a href="#">Home</a></li>
+								<li><a href="#about">About</a></li>
+								<li><a href="#menu">Menu</a></li>
+								<li><a href="#service">Service</a></li>
+								<li><a href="#contact">Contact</a></li>
+							</ul>
+						</div>	
+					</div>
+					
+					<div class="col">
+							<h4>Information</h4>
+							<ul>
+								<li><a href="#">About Us</a></li>
+								<li><a href="#">Delivery Information</a></li>
+							</ul>
+						</div>	
+					</div>
+					
+					<div class="col">
+						<h4>Contact Us</h4>
+						<div class="social">
+							<a href="#"><i class='bx bxl-facebook' ></i></a>
+							<a href="#"><i class='bx bxl-instagram' ></i></a>
+						</div>
+					</div>
+				</div>
+			</section>
+			<script>
+		let menu = document.querySelector("#menu-icon");
+let navbar = document.querySelector(".navbar");
+
+menu.addEventListener("click", function () {
+  navbar.classList.toggle("active");
+});
+
+window.onscroll = () => {
+  navbar.classList.remove("active");
+};
+
+		</script>
+		<script>
+  </script>
+	</body>
+</html>
